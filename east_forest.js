@@ -8,6 +8,7 @@
 
 var east_forest = new Array();
 
+east_forest['level'] = 'Level 1';
 east_forest['title'] = 'East Forest';
 east_forest['map'] = [
   '?????? . ???????????????????????????',
@@ -54,3 +55,5 @@ east_forest['infos'] = [
   '29|18|Violet flower|(bring some of them to Brother Mordar)',
   '34|38|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;<br>Some additions by Rainer &lt;<A HREF="mailto:r.gottwald@freenet.de">r.gottwald@freenet.de</A>&gt;'
   ];
+
+AddMenu('east_forest');

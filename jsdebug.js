@@ -42,7 +42,11 @@ function getObjectProps(objName, depth, lev) {
             
             default:
               if (depth>=4) {
-                obp = getObjectProps(objName+'.'+x, depth, lev+1);
+                if (x.indexOf(' ') != -1 || objName.indexOf('[') != -1) {
+                  obp = getObjectProps(objName+'[\''+x+'\']', depth, lev+1);
+                } else {
+                  obp = getObjectProps(objName+'.'+x, depth, lev+1);
+                }
                 if (obp.indexOf('\n')!=-1) {
                   o += space(lev*2) + objName + '.' + x + ' ('+typeof(obj[x])+') = {';
                   o += '\n' + obp;

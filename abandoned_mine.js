@@ -8,6 +8,7 @@
 
 abandoned_mine = new Array();
 
+abandoned_mine['level'] = 'Level 1';
 abandoned_mine['title'] = 'Abandoned Mine';
 abandoned_mine['map'] = [
   '????###?########',
@@ -29,3 +30,4 @@ abandoned_mine['infos'] = [
   '13|18|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
 
+AddMenu('abandoned_mine');

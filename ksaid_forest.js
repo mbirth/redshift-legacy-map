@@ -8,7 +8,8 @@
 
 var ksaid_forest = new Array();
 
-ksaid_forest['title'] = 'King´s Forest';
+ksaid_forest['level'] = 'Xpack: King\'s Aide';
+ksaid_forest['title'] = 'King\'s Aide: King\'s Forest';
 ksaid_forest['map'] = [
   '???+++_+ ???????????????????',
   '???. ***_ ??????????????????',
@@ -51,3 +52,5 @@ ksaid_forest['infos'] = [
   '27|23|Money (150)|',
   '30|230|Map made by Mervin.sk and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('ksaid_forest');

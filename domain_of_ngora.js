@@ -8,6 +8,7 @@
 
 var domain_of_ngora = new Array();
 
+domain_of_ngora['level'] = 'Level 1';
 domain_of_ngora['title'] = 'Domain of N\'Gora';
 domain_of_ngora['map'] = [
   '??##A#?#A##??',
@@ -31,3 +32,5 @@ domain_of_ngora['infos'] = [
   '11| 7|Teleporter|(You arrive here)',
   '13|15|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('domain_of_ngora');

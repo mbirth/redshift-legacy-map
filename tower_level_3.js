@@ -7,6 +7,7 @@
 
 var tower_level_3 = new Array();
 
+tower_level_3['level'] = 'Level 2';
 tower_level_3['title'] = 'Tower Level 3';
 tower_level_3['map'] = [
   '??????????###??????????',
@@ -57,3 +58,5 @@ tower_level_3['infos'] = [
   '21|15|Paladin|400 coins',
   '24|25|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;<br>Some additions by Rainer &lt;<A HREF="mailto:r.gottwald@freenet.de">r.gottwald@freenet.de</A>&gt;'
   ];
+
+AddMenu('tower_level_3');

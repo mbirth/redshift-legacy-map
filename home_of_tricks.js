@@ -7,6 +7,7 @@
 
 var home_of_tricks = new Array();
 
+home_of_tricks['level'] = 'Level 4';
 home_of_tricks['title'] = 'Home of Tricks';
 home_of_tricks['map'] = [
   '???########??????????????????????#g#????',
@@ -68,3 +69,5 @@ home_of_tricks['infos'] = [
   '27|5|Vase|Gem Ring AC:0, Full healing potion',
   '31|42|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('home_of_tricks');

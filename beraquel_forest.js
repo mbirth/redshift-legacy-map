@@ -8,6 +8,7 @@
 
 var beraquel_forest = new Array();
 
+beraquel_forest['level'] = 'Level 2';
 beraquel_forest['title'] = 'Beraquel forest';
 beraquel_forest['map'] = [
   '??? . ???? . ???????????????????? ..+. ?????????',
@@ -76,3 +77,5 @@ beraquel_forest['infos'] = [
   '46|28|Othase\'s letter|Bring it to him in order to get Lucretia\'s necklace',
   '49|50|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('beraquel_forest');

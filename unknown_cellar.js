@@ -8,6 +8,7 @@
 
 var unknown_cellar = new Array();
 
+unknown_cellar['level'] = 'Level 2';
 unknown_cellar['title'] = 'Unknown Cellar';
 unknown_cellar['map'] = [
   '###N###?????',
@@ -40,3 +41,5 @@ unknown_cellar['infos'] = [
   '17| 4|Stand|Spellbook (Harm undead)',
   '18|14|Engine made by Markus Birth, map by Rainer Gottwald|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt; &amp; &lt;<A HREF="r.gottwald@freenet.de">r.gottwald@freenet.de</A>&gt;'
   ];
+
+AddMenu('unknown_cellar');

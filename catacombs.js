@@ -8,6 +8,7 @@
 
 var catacombs = new Array();
 
+catacombs['level'] = 'Level 1';
 catacombs['title'] = 'Catacombs';
 catacombs['map'] = [
   '?#####??######?',
@@ -39,3 +40,4 @@ catacombs['infos'] = [
   '18|17|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
 
+AddMenu('catacombs');

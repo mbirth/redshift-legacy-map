@@ -8,7 +8,8 @@
 
 var ksaid_passages = new Array();
 
-ksaid_passages['title'] = 'Passages';
+ksaid_passages['level'] = 'Xpack: King\'s Aide';
+ksaid_passages['title'] = 'King\'s Aide: Passages';
 ksaid_passages['map'] = [
   '#####w######?????',
   '#  p  M    #?????',
@@ -35,3 +36,5 @@ ksaid_passages['infos'] = [
   '18|16|Hole in wall|(You arrive Castle Hall)',
   '19|19|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('ksaid_passages');

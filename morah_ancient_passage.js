@@ -9,6 +9,7 @@
 
 var morah_ancient_passage = new Array();
 
+morah_ancient_passage['level'] = 'Xpack: Morah\'s Plan';
 morah_ancient_passage['title'] = 'Morah\'s Plan: Ancient Passage';
 morah_ancient_passage['map'] = [
   '???################?????????',
@@ -33,3 +34,5 @@ morah_ancient_passage['infos'] = [
   ' 9|27|Landing place|if you fell into the hole in the bank cellar',
   '16|30|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('morah_ancient_passage');

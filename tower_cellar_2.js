@@ -7,6 +7,7 @@
 
 var tower_cellar_2 = new Array();
 
+tower_cellar_2['level'] = 'Level 2';
 tower_cellar_2['title'] = 'Tower Cellar 2';
 tower_cellar_2['map'] = [
   '?#######?',
@@ -26,3 +27,5 @@ tower_cellar_2['infos'] = [
   ' 5| 5|Teleporter|You arrive to the Tower level 1',
   '10|11|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('tower_cellar_2');

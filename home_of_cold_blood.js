@@ -8,6 +8,7 @@
 
 var home_of_cold_blood = new Array();
 
+home_of_cold_blood['level'] = 'Level 4';
 home_of_cold_blood['title'] = 'Home of Cold Blood';
 home_of_cold_blood['map'] = [
   '???################################?########????',
@@ -138,3 +139,5 @@ home_of_cold_blood['infos'] = [
   '30|21|Wight Master,Wight Master',
   '32|50|Engine made by Markus Birth, map by Rainer Gottwald|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt; &amp; &lt;<A HREF="r.gottwald@freenet.de">r.gottwald@freenet.de</A>&gt;'
   ];
+
+AddMenu('home_of_cold_blood');

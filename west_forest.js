@@ -8,6 +8,7 @@
 
 var west_forest = new Array();
 
+west_forest['level'] = 'Level 1';
 west_forest['title'] = 'West Forest';
 west_forest['map'] = [
   '???????.*.??????????????',
@@ -47,3 +48,5 @@ west_forest['infos'] = [
   '26|18|Path to the town of Decrantes',
   '28|26|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('west_forest');

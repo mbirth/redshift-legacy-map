@@ -7,6 +7,7 @@
 
 var frozen_catacombs = new Array();
 
+frozen_catacombs['level'] = 'Level 3';
 frozen_catacombs['title'] = 'Frozen Catacombs';
 frozen_catacombs['map'] = [
   '???????????#g#???????????????????????????????',
@@ -71,3 +72,5 @@ frozen_catacombs['infos'] = [
   '29|15|Shelf|Scroll of Berzerker',
   '32|47|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('frozen_catacombs');

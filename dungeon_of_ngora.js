@@ -8,6 +8,7 @@
 
 var dungeon_of_ngora = new Array();
 
+dungeon_of_ngora['level'] = 'Level 1';
 dungeon_of_ngora['title'] = 'Dungeon of N\'Gora';
 dungeon_of_ngora['map'] = [
   '#####?###s#?????????',
@@ -64,3 +65,5 @@ dungeon_of_ngora['infos'] = [
   '18|18|Sign|"Turn back, poor human! Do you think that your miserable power will be enough to defeat the Master?!"',
   '19|22|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('dungeon_of_ngora');

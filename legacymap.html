@@ -1,5 +1,24 @@
 <HTML>
 <HEAD>
+  <SCRIPT LANGUAGE="JavaScript1.2" SRC="jsdebug.js"></SCRIPT>
+
+  <SCRIPT LANGUAGE="JavaScript1.2" TYPE="text/javascript"><!--
+    // INITIALIZATION
+
+    var maps = new Array();
+
+    function AddMenu(objname) {
+      var cat = eval(objname+'[\'level\']');
+      var tit = eval(objname+'[\'title\']');
+      if (!maps[cat]) {
+        maps[cat] = new Array();
+      }
+      maps[cat][tit] = objname;
+    }
+
+    // -->
+  </SCRIPT>
+
   <!-- Level 1 -->
   <SCRIPT LANGUAGE="JavaScript1.2" SRC="abandoned_mine.js" TYPE="text/javascript"></SCRIPT>
   <SCRIPT LANGUAGE="JavaScript1.2" SRC="catacombs.js" TYPE="text/javascript"></SCRIPT>
@@ -70,66 +89,10 @@
 <BODY>
   <FORM NAME="mapsel">
     <SELECT NAME="map" SIZE=1>
-      <OPTGROUP LABEL="Level 1">
-        <OPTION VALUE="abandoned_mine">Abandoned Mine</OPTION>
-        <OPTION VALUE="catacombs">Catacombs</OPTION>
-        <OPTION VALUE="caves_of_ngora">Caves of N'Gora</OPTION>
-        <OPTION VALUE="cellar_of_hranemus">Cellar of Hranemus</OPTION>
-        <OPTION VALUE="domain_of_ngora">Domain of N'Gora</OPTION>
-        <OPTION VALUE="dungeon_of_ngora">Dungeon of N'Gora</OPTION>
-        <OPTION VALUE="east_forest">East Forest</OPTION>
-        <OPTION VALUE="decrantes">Town of Decrantes</OPTION>
-        <OPTION VALUE="west_forest">West Forest</OPTION>
-      </OPTGROUP>
-      <OPTGROUP LABEL="Level 2">
-        <OPTION VALUE="abandoned_cellar">Abadoned Cellar</OPTION>
-        <OPTION VALUE="beraquel_forest">Beraquel forest</OPTION>
-        <OPTION VALUE="beraquel">City of Beraquel</OPTION>
-        <OPTION VALUE="giant_cave">Giant Cave</OPTION>
-        <OPTION VALUE="ogre_forest">Ogre Forest</OPTION>
-        <OPTION VALUE="tower_cellar">Tower Cellar</OPTION>
-        <OPTION VALUE="tower_cellar_2">Tower Cellar 2</OPTION>
-        <OPTION VALUE="tower_level_1">Tower level 1</OPTION>
-        <OPTION VALUE="tower_level_2">Tower level 2</OPTION>
-        <OPTION VALUE="tower_level_3">Tower level 3</OPTION>
-        <OPTION VALUE="tower_level_4">Tower level 4</OPTION>
-        <OPTION VALUE="unknown_cellar">Unknown Cellar</OPTION>
-      </OPTGROUP>
-      <OPTGROUP LABEL="Level 3">
-        <OPTION VALUE="dragon_lair">Dragon Lair</OPTION>
-        <OPTION VALUE="dragon_swamp">Dragon Swamp</OPTION>
-        <OPTION VALUE="east_grendelmoore">East Grendelmoore</OPTION>
-        <OPTION VALUE="fire_catacombs">Fire Catacombs</OPTION>
-        <OPTION VALUE="fire_empire">Fire Empire</OPTION>
-        <OPTION VALUE="frozen_catacombs">Frozen Catacombs</OPTION>
-        <OPTION VALUE="frozen_empire">Frozen Empire</OPTION>
-        <OPTION VALUE="grendelmoore">Grendelmoore</OPTION>
-        <OPTION VALUE="north_grendelmoore">North Grendelmoore</OPTION>
-        <OPTION VALUE="swamp_cave">Swamp Cave</OPTION>
-        <OPTION VALUE="west_grendelmoore">West Grendelmoore</OPTION>
-      </OPTGROUP>
-      <OPTGROUP LABEL="Level 4">
-        <OPTION VALUE="home_of_cold_blood">Home of Cold Blood</OPTION>
-        <OPTION VALUE="home_of_ignorance">Home of Ignorance</OPTION>
-        <OPTION VALUE="home_of_patience">Home of Patience</OPTION>
-        <OPTION VALUE="home_of_tricks">Home of Tricks</OPTION>
-        <OPTION VALUE="sohls_cave">Sohl's Cave</OPTION>
-        <OPTION VALUE="sohls_chamber">Sohl's Chamber</OPTION>
-      </OPTGROUP>
-      <OPTGROUP LABEL="Morah's Plan">
-        <OPTION VALUE="morah_ancient_passage">Morah's Plan: Ancient Passage</OPTION>
-        <OPTION VALUE="morah_bank_cellar">Morah's Plan: Bank cellar</OPTION>
-        <OPTION VALUE="morah_swithand_forest">Morah's Plan: Swithand Forest</OPTION>
-      </OPTGROUP>
-      <OPTGROUP LABEL="King's Aide">
-        <OPTION VALUE="ksaid_castle_hall">King's Aide: Castle Hall</OPTION>
-        <OPTION VALUE="ksaid_forest">King's Aide: King's Forest</OPTION>
-        <OPTION VALUE="ksaid_greta_house">King's Aide: Greta's House</OPTION>
-        <OPTION VALUE="ksaid_passages">King's Aide: Passages</OPTION>
-        <OPTION VALUE="ksaid_town">King's Aide: Town</OPTION>
-      </OPTGROUP>
-      <OPTGROUP LABEL="Expansion Pack">
-      </OPTGROUP>
+      <SCRIPT LANGUAGE="JavaScript1.2"><!--
+        showMenu();
+        // -->
+      </SCRIPT>
     </SELECT>
     <INPUT TYPE="button" VALUE="Show" onClick="self.location.search=document.mapsel.map.value;"> [<A HREF="javascript:alert('Unpack into any directory and open legacymap.html.'); location.href='legacymap.zip';" STYLE="font-size: 10pt;">Download for offline use</A>]
   </FORM>
@@ -150,6 +113,7 @@
     } else {
       document.writeln('<B STYLE="color: blue;">Please select a map for viewing and click on \'Show\'.</B><P>');
     }
+
     // -->
   </SCRIPT>
 </BODY>

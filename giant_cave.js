@@ -7,6 +7,7 @@
 
 var giant_cave = new Array();
 
+giant_cave['level'] = 'Level 2';
 giant_cave['title'] = 'Giant Cave';
 giant_cave['map'] = [
   '???????????????????????????????????????????###??',
@@ -67,3 +68,5 @@ giant_cave['infos'] = [
   '36| 3|Barbar Coin',
   '41|50|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('giant_cave');

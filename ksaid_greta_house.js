@@ -8,7 +8,8 @@
 
 var ksaid_greta_house = new Array();
 
-ksaid_greta_house['title'] = 'Greta\'s House';
+ksaid_greta_house['level'] = 'Xpack: King\'s Aide';
+ksaid_greta_house['title'] = 'King\'s Aide: Greta\'s House';
 ksaid_greta_house['map'] = [
   '######?###g#?',
   '#HWW #?#***#?',
@@ -26,3 +27,5 @@ ksaid_greta_house['infos'] = [
   ' 5| 13|Door|Leads to the Town',
   '11|15|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('ksaid_greta_house');

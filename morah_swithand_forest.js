@@ -9,6 +9,7 @@
 
 var morah_swithand_forest = new Array();
 
+morah_swithand_forest['level'] = 'Xpack: Morah\'s Plan';
 morah_swithand_forest['title'] = 'Morah\'s Plan: Swithand Forest';
 morah_swithand_forest['map'] = [
   '?? .+.+.+ +. ??????????????????????????????',
@@ -41,3 +42,5 @@ morah_swithand_forest['infos'] = [
   '13|40|Hole to the ancient passage to the bank',
   '21|45|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('morah_swithand_forest');

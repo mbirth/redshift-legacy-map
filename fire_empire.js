@@ -7,6 +7,7 @@
 
 var fire_empire = new Array();
 
+fire_empire['level'] = 'Level 3';
 fire_empire['title'] = 'Fire Empire';
 fire_empire['map'] = [
   '???????????????????????????????????#g#???????',
@@ -104,3 +105,5 @@ fire_empire['infos'] = [
   '39|35|Shelf|Frozen Skeleton Key',
   '42|47|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('fire_empire');

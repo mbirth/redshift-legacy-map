@@ -7,6 +7,7 @@
 
 var home_of_patience = new Array();
 
+home_of_patience['level'] = 'Level 4';
 home_of_patience['title'] = 'Home of Patience';
 home_of_patience['map'] = [
   '?#g#g#???????????????????????????????????????',
@@ -63,3 +64,5 @@ home_of_patience['infos'] = [
   '28|9|Vase|Shirt AC:1, Full mana potion, Remove paralysis potion',
   '32|47|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('home_of_patience');

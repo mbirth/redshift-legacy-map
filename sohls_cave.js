@@ -7,6 +7,7 @@
 
 var sohls_cave = new Array();
 
+sohls_cave['level'] = 'Level 4';
 sohls_cave['title'] = 'Sohl\'s Cave';
 sohls_cave['map'] = [
   '??????????????###?????????',
@@ -51,3 +52,5 @@ sohls_cave['infos'] = [
   '20|16|Teleporter|You arrive to the Home of Ignorance',
   '22|28|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; & &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('sohls_cave');

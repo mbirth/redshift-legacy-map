@@ -7,6 +7,7 @@
 
 var dragon_lair = new Array();
 
+dragon_lair['level'] = 'Level 3';
 dragon_lair['title'] = 'Dragon Lair';
 dragon_lair['map'] = [
   '????????????###????????',
@@ -76,3 +77,5 @@ dragon_lair['infos'] = [
   '29|15|Money|(100)',
   '32|25|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('dragon_lair');

@@ -7,6 +7,7 @@
 
 var dragon_swamp = new Array();
 
+dragon_swamp['level'] = 'Level 3';
 dragon_swamp['title'] = 'Dragon Swamp';
 dragon_swamp['map'] = [
   '??? ++ ++ ??????',
@@ -35,3 +36,5 @@ dragon_swamp['infos'] = [
   '13|9|Teleporter|You arrive to the North Grendelmoore',
   '15|18|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('dragon_swamp');

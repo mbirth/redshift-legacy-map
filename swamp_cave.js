@@ -7,6 +7,7 @@
 
 var swamp_cave = new Array();
 
+swamp_cave['level'] = 'Level 3';
 swamp_cave['title'] = 'Swamp Cave';
 swamp_cave['map'] = [
   '????###????????',
@@ -32,3 +33,5 @@ swamp_cave['infos'] = [
   '12| 6|Round Shield|AC:6',
   '14|17|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('swamp_cave');

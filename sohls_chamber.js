@@ -8,6 +8,7 @@
 
 var sohls_chamber = new Array();
 
+sohls_chamber['level'] = 'Level 4';
 sohls_chamber['title'] = 'Sohl\'s Chamber';
 sohls_chamber['map'] = [
   '?????????????????#####??????',
@@ -31,3 +32,4 @@ sohls_chamber['infos'] = [
   '12|30|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
 
+AddMenu('sohls_chamber');

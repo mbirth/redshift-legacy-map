@@ -7,6 +7,7 @@
 
 var fire_catacombs = new Array();
 
+fire_catacombs['level'] = 'Level 3';
 fire_catacombs['title'] = 'Fire Catacombs';
 fire_catacombs['map'] = [
   '????????????????????????###????????????',
@@ -56,3 +57,5 @@ fire_catacombs['infos'] = [
   '24|25|Secret Switch|',
   '26|41|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('fire_catacombs');

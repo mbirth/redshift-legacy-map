@@ -8,7 +8,8 @@
 
 var ksaid_castle_hall = new Array();
 
-ksaid_castle_hall['title'] = 'Castle Hall ';
+ksaid_castle_hall['level'] = 'Xpack: King\'s Aide';
+ksaid_castle_hall['title'] = 'King\'s Aide: Castle Hall ';
 ksaid_castle_hall['map'] = [
   '??????#k#o#k#?#####',
   '??????j lW# #?j   #',
@@ -40,3 +41,5 @@ ksaid_castle_hall['infos'] = [
   '11|12|Shelf|Quiver (15 wooden arrows) Damage: 4-5',
   '12|21|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('ksaid_castle_hall');

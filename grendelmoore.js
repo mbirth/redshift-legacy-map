@@ -7,6 +7,7 @@
 
 var grendelmoore = new Array();
 
+grendelmoore['level'] = 'Level 3';
 grendelmoore['title'] = 'Grendelmoore';
 grendelmoore['map'] = [
   '?????????????   ?????????????',
@@ -67,3 +68,5 @@ grendelmoore['infos'] = [
   '28|15|Hole in wall|Path to the Sohl\'s Cave',
   '29|31|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('grendelmoore');

@@ -9,6 +9,7 @@
 
 var morah_bank_cellar = new Array();
 
+morah_bank_cellar['level'] = 'Xpack: Morah\'s Plan';
 morah_bank_cellar['title'] = 'Morah\'s Plan: Bank cellar';
 morah_bank_cellar['map'] = [
   '????????#s#????????',
@@ -61,3 +62,5 @@ morah_bank_cellar['infos'] = [
   '27|16|Statue',
   '29|21|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('morah_bank_cellar');

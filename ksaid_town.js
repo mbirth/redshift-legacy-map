@@ -8,7 +8,8 @@
 
 var ksaid_town = new Array();
 
-ksaid_town['title'] = 'Town';
+ksaid_town['level'] = 'Xpack: King\'s Aide';
+ksaid_town['title'] = 'King\'s Aide: Town';
 ksaid_town['map'] = [
   '??########??????#########???',
   '??b **** #??????# *****Wd???',
@@ -65,3 +66,5 @@ ksaid_town['infos'] = [
   '16|20|Old Man|Hallo there<br>Sorry, I\'m retired. I don\'t make magic anymore. My daughter, Morgana, took over the magic shop. It\'s in the ne corner of the town.<br>Say, if you want to make some money, I have a job for you..<br>All my life I\'ve been looking for this.. If you run across it. I\'ll pay ya for it.<br>It\'s Mystic Ethereat orb that let\'s you talk from the other side...<br>Imean, you can talk to the living. With it! Of course you got to be dead to use it..<br>I just want to be able to nag my daughter when I die...',
   '18|30|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('ksaid_town');

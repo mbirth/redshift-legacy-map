@@ -7,6 +7,7 @@
 
 var frozen_empire = new Array();
 
+frozen_empire['level'] = 'Level 3';
 frozen_empire['title'] = 'Frozen Empire';
 frozen_empire['map'] = [
   '???????????????????????????????????#g#??????????',
@@ -119,3 +120,5 @@ frozen_empire['infos'] = [
   '48|20|Shelf|Gnareld Staff, Damage: 4-10, Mass heal (5 charges)<br>War Staff, Damage: 5-12, Fireball (7 charges)',
   '49|50|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('frozen_empire');

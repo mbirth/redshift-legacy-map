@@ -8,6 +8,7 @@
 
 var cellar_of_hranemus = new Array();
 
+cellar_of_hranemus['level'] = 'Level 1';
 cellar_of_hranemus['title'] = 'Cellar of Hranemus';
 cellar_of_hranemus['map'] = [
   '##########???',
@@ -29,3 +30,5 @@ cellar_of_hranemus['infos'] = [
   '11|11|Shelf|Contains Father Hranemus\' crucifix',
   '12|15|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('cellar_of_hranemus');

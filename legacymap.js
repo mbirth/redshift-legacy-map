@@ -263,6 +263,29 @@ function showInfolist(map) {
   }
 }
 
+function showMenu() {
+  var mcats = new Array();
+  var mcatnames = new Array();
+  for (var c in maps) {
+    mcats.push(c);
+    for (var n in maps[c]) {
+      if (!mcatnames[c]) mcatnames[c] = new Array();
+      mcatnames[c].push(n);
+    }
+    mcatnames[c].sort();
+  }
+  mcats.sort();
+
+  for (var c in mcats) {
+    document.writeln('      <OPTGROUP LABEL="'+mcats[c]+'">');
+    for (var m in mcatnames[mcats[c]]) {
+      document.writeln('        <OPTION VALUE="'+maps[mcats[c]][mcatnames[mcats[c]][m]]+'">'+mcatnames[mcats[c]][m]+'</OPTION>');
+    }
+    document.writeln('      </OPTGROUP>');
+  }
+}
+
+
 // initialization
 var xmapname = location.search.substring(1);
 if (xmapname.length > 0) {

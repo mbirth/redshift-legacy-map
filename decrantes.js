@@ -8,6 +8,7 @@
 
 var decrantes = new Array();
 
+decrantes['level'] = 'Level 1';
 decrantes['title'] = 'Town of Decrantes';
 decrantes['map'] = [
   '????????????####c#c#c#?????????',
@@ -75,3 +76,5 @@ decrantes['infos'] = [
   '24| 6|Hole to spider catacombs|Clear all spiders for the Bartender of Decrantes',
   '28|33|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('decrantes');

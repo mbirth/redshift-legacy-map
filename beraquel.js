@@ -8,6 +8,7 @@
 
 var beraquel = new Array();
 
+beraquel['level'] = 'Level 2';
 beraquel['title'] = 'City of Beraquel';
 beraquel['map'] = [
   '???#####????????#g#?####???????????????',
@@ -83,3 +84,5 @@ beraquel['infos'] = [
   '25|30|Barrel|contents vary',
   '29|41|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('beraquel');

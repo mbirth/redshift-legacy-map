@@ -7,6 +7,7 @@
 
 var tower_level_4 = new Array();
 
+tower_level_4['level'] = 'Level 2';
 tower_level_4['title'] = 'Tower Level 4';
 tower_level_4['map'] = [
   '????####A####?????',
@@ -43,3 +44,5 @@ tower_level_4['infos'] = [
   '17|9|Stand|Spellbook (Vampiric touch)',
   '18|20|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('tower_level_4');

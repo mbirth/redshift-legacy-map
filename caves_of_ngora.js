@@ -8,6 +8,7 @@
 
 var caves_of_ngora = new Array();
 
+caves_of_ngora['level'] = 'Level 1';
 caves_of_ngora['title'] = 'Caves of N\'Gora';
 caves_of_ngora['map'] = [
   '????????###??????',
@@ -61,3 +62,5 @@ caves_of_ngora['infos'] = [
   '43|10|Ladder|Leads to the Dungeon of N\'Gora',
   '44|19|Map and engine made by Markus Birth|&lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('caves_of_ngora');

@@ -7,6 +7,7 @@
 
 var east_grendelmoore = new Array();
 
+east_grendelmoore['level'] = 'Level 3';
 east_grendelmoore['title'] = 'East Grendelmoore';
 east_grendelmoore['map'] = [
   '?????? ++++  ++ ?????????',
@@ -36,3 +37,5 @@ east_grendelmoore['infos'] = [
   '12|1|Path to the Grendelmoore',
   '21|27|Map made by Mervin and engine made by Markus Birth|&lt;<A HREF="mailto:webmaster@mervin.sk">webmaster@mervin.sk</A>&gt; &amp; &lt;<A HREF="mailto:mbirth@webwriters.de">mbirth@webwriters.de</A>&gt;'
   ];
+
+AddMenu('east_grendelmoore');
