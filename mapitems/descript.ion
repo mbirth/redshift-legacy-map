@@ -1,0 +1,37 @@
+altar.gif Altar
+building.gif Wall / Building
+building_e.gif Door in wall (east)
+building_n.gif Door in wall (north)
+building_s.gif Door in wall (south)
+building_w.gif Door in wall (west)
+building_se.gif Special in wall (east)
+building_sn.gif Special in wall (north)
+building_ss.gif Special in wall (south)
+building_sw.gif Special in wall (west)
+building_pe.gif Personal before wall (east)
+building_pn.gif Person before wall (north)
+building_ps.gif Person before wall (south)
+building_pw.gif Person before wall (west)
+building_he.gif Hole in wall (east)
+building_hn.gif Hole in wall (north)
+building_hs.gif Hole in wall (south)
+building_hw.gif Hole in wall (west)
+building_le.gif Ladder in wall (east)
+building_ln.gif Ladder in wall (north)
+building_ls.gif Ladder in wall (south)
+building_lw.gif Ladder in wall (west)
+bush.gif Bush
+door_h.gif Door
+door_magic.gif Magic door
+door_wall.gif Broken wall
+hole.gif Hole
+pillar.gif Pillar
+rock.gif Rock
+sand.gif Sand
+sign.gif Sign
+street.gif Street
+switch.gif Switch
+teleporter.gif Teleporter
+trap.gif Trap (Spikes / Poison)
+tree.gif Small tree (walkable)
+tree_big.gif Big tree (blocking)
