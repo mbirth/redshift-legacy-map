@@ -118,11 +118,11 @@ function drawSymbol(code) {
   var posid = cury+'|'+curx;
   if (info != '') {
     document.write('<A HREF="#'+posid+'" onMouseOver="showMarker(\''+posid+'\'); showInfo(\''+info+'\', event);" onMouseOut="hideMarker(\''+posid+'\', \'\'); hideInfo();">');
-    document.write('<IMG SRC="'+symbols_path+'info.gif" ID="'+posid+'" WIDTH=10 HEIGHT=10 BORDER=0>');
+    document.write('<IMG SRC="'+symbols_path+'info.gif" ID="'+posid+'" WIDTH=10 HEIGHT=10 BORDER=0 TITLE="">');
     document.write('</A>');
   } else {
     document.write('<A HREF="#'+posid+'" onMouseOver="showMarker(\''+posid+'\');" onMouseOut="hideMarker(\''+posid+'\', \'clear\');">');
-    document.write('<IMG SRC="'+symbols_path+'info_clear.gif" ID="'+posid+'" WIDTH=10 HEIGHT=10 BORDER=0>');
+    document.write('<IMG SRC="'+symbols_path+'info_clear.gif" ID="'+posid+'" WIDTH=10 HEIGHT=10 BORDER=0 TITLE="">');
     document.write('</A>');
   }
   document.write('</TD>');
